@@ -1,12 +1,15 @@
 let timer;
 let timeRemaining;
 let isTimerRunning = false;
+let timerId;
+let clockId;
 
-document.getElementById("startBtn").addEventListener("onClick", startTimer);
-document.getElementById("resetBtn").addEventListener("onClick", resetTimer);
+//document.getElementById("startBtn").addEventListener("onClick", startTimer);
+//document.getElementById("resetBtn").addEventListener("onClick", resetTimer);
 
 function startTimer() {
     if (isTimerRunning) return;
+    clearTimeout(clockId);
 
     let minutes = document.getElementById("minutesInput").value;
     timeRemaining = minutes * 60;
@@ -31,7 +34,7 @@ function startTimer() {
 function showClock() {
     if (isTimerRunning) return;
 
-    setInterval(() => {
+    clockId = setInterval(() => {
         let now = new Date();
         let hours = now.getHours();
         let minutes = now.getMinutes();
@@ -45,3 +48,7 @@ function resetTimer() {
     isTimerRunning = false;
     showClock();
 }
+
+window.onload = function() {
+    resetTimer();
+  };
