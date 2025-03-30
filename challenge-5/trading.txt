@@ -4,3 +4,8 @@ and an ask (sell) price. If your goal is to make a profit
 from the spread while minimizing risk, how would you set your 
 bid and ask prices?
 
+To profit off the spread you would want to quote a bid price below $100 and an ask price above $100.
+In order to manage the risk from this trade, we would need to consider the volatility of the asset
+at the moment. If the volatility is high, we will need to have a wider gap between our bid and ask
+price. This could result in fewer trades being executed but less risk. If volatility is low we can quote
+a smaller spread between our bid and ask price.
