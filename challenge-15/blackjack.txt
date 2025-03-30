@@ -19,29 +19,49 @@ Your job is to maximize your chances of winning each hand by deciding what to do
 player: 10 7
 dealer: 10
 
+STAND
+
 player: 7, 9
 dealer: 10
+
+HIT
 
 player: 9, 9
 dealer: 9
 
+SPLIT
+
 player: 7, A
 dealer: A
+
+HIT
 
 player: 7, A
 dealer: 5
 
+DOUBLE IF ALLOWED OTHERWISE STAND
+
 player: 2, 3
 dealer: 3
+
+HIT
 
 player: 2, 2
 dealer: 9
 
+HIT
+
 player: 5, 7
 dealer: 4
+
+STAND
 
 player: 6, 6
 dealer: 2
 
+SPLIT
+
 player: 4, 5
 dealer: 6
+
+DOUBLE IF ALLOWED OTHERWISE HIT

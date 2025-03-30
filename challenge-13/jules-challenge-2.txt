@@ -6,3 +6,5 @@
 print(mystery(5) // mystery(3))
 
 What will the output of the following Python code be? What is the time complexity?
+
+5!/3! = 20. The time complexit is O(n), it must iterate down from n to 0.
