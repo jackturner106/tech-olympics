@@ -64,8 +64,8 @@ Example Output:
 ---------------
 For the provided fake data, you will produce a summary like this (based on the data given):
 
-Unique Customers: _____
-Total Money Spent: _____
+Unique Customers: __6___
+Total Money Spent: __1755.5___
 
 ---
 
