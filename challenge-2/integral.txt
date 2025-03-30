@@ -1,0 +1,3 @@
+solve the integral:
+
+The integral is undefined outside of -1 to 1 therefore the integral is equal to 0.
