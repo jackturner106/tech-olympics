@@ -3,3 +3,5 @@ or compete (aggressively bid). If both cooperate, you each earn $5M.
 If one competes and the other doesn’t, the aggressive trader earns $8M 
 and the other earns $2M. If both compete, you each earn $3M. 
 What’s the Nash equilibrium?
+
+The Nash equilibrium is that both will compete and earn $3M. Despite knowing that competing runs the risk of losing money, they will still compete with the assumption that the other trader won't change their strategy.
